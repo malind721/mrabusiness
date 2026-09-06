@@ -1,252 +1,1243 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="images/Favicon2.jpeg">
-  <link rel="icon" href="/images/Favicon2.jpeg" type="image/jpeg">
-  <link rel="shortcut icon" href="/images/Favicon3.jpeg">
-  <link rel="apple-touch-icon" href="/images/Favicon3.jpeg">
-  <meta name="description" content="M.R.A. Business aiuta piccole attività e professionisti con siti web, social media, advertising, Google Business e automazioni AI.">
+
+  <title>M.R.A. Business | Siti Web e Marketing Digitale per Attività Locali</title>
+
+  <meta
+    name="description"
+    content="M.R.A. Business aiuta piccole attività e professionisti con siti web, social media, advertising, Google Business e automazioni AI."
+  >
+
   <meta name="theme-color" content="#080916">
+
   <meta property="og:title" content="M.R.A. Business | Digital Growth">
-  <meta property="og:description" content="Strategie digitali complete per portare più clienti alle attività locali.">
+
+  <meta
+    property="og:description"
+    content="Strategie digitali complete per portare più clienti alle attività locali."
+  >
+
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80">
+
+  <meta
+    property="og:image"
+    content="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80"
+  >
+
+  <link rel="icon" href="images/Favicon3.jpeg">
+  <link rel="shortcut icon" href="images/Favicon3.jpeg">
+  <link rel="apple-touch-icon" href="images/Favicon3.jpeg">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
-  <title>M.R.A. Business | Siti Web e Marketing Digitale per Attività Locali</title>
+  <link rel="stylesheet" href="cookie.css">
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+>
+
 </head>
+
+
 <body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
   <header class="site-header">
+
     <nav class="nav" aria-label="Navigazione principale">
-      <a class="logo" href="#top" aria-label="M.R.A. Business home">M.R.A.<span>Business</span></a>
+
+      <a
+        class="logo"
+        href="#top"
+        aria-label="M.R.A. Business home"
+      >
+        M.R.A.<span>Business</span>
+      </a>
+
       <div class="links">
+
         <a href="#servizi">Servizi</a>
+
         <a href="#metodo">Metodo</a>
+
         <a href="#pacchetti">Pacchetti</a>
+
         <a href="#contatti">Contatti</a>
+
+        <a href="portfolio.html">Portfolio</a>
+
       </div>
-      <a class="nav-cta" href="#contatti">Consulenza</a>
+
+      <a
+        class="nav-cta"
+        href="#contatti"
+      >
+        Consulenza
+      </a>
+
+      <button
+  class="mobile-menu-btn"
+  id="mobileMenuBtn"
+  aria-label="Apri menu"
+  type="button"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
     </nav>
+
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+<aside class="mobile-sidebar" id="mobileSidebar">
+
+  <div class="mobile-sidebar-header">
+
+    <span>M.R.A.<strong>Business</strong></span>
+
+    <button
+  class="mobile-close"
+  id="mobileClose"
+  aria-label="Chiudi menu"
+  type="button"
+>
+  ×
+</button>
+
+  </div>
+
+  <div class="mobile-sidebar-links">
+
+    <a href="#servizi">Servizi</a>
+
+    <a href="#metodo">Metodo</a>
+
+    <a href="#pacchetti">Pacchetti</a>
+
+    <a href="#contatti">Contatti</a>
+
+    <a href="portfolio.html">Portfolio</a>
+
+  </div>
+
+  <a
+    class="mobile-sidebar-cta"
+    href="#contatti"
+  >
+    Richiedi consulenza
+    <span>→</span>
+  </a>
+
+</aside>
+
   </header>
 
+
+  <!-- =========================
+       MAIN
+  ========================== -->
+
   <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
+
+
+    <!-- HERO -->
+
+    <section
+      class="hero"
+      aria-labelledby="hero-title"
+    >
+
       <div class="hero-text">
-        <p class="eyebrow">Digital growth per attività locali</p>
-        <h1 id="hero-title">Facciamo crescere aziende vere nel mondo digitale.</h1>
-        <p class="hero-copy">Siti web, social, campagne pubblicitarie, Google Business e automazioni AI costruiti intorno ai clienti che vuoi raggiungere.</p>
+
+        <p class="eyebrow">
+          Digital growth per attività locali
+        </p>
+
+        <h1 id="hero-title">
+          Facciamo crescere aziende vere nel mondo digitale.
+        </h1>
+
+        <p class="hero-copy">
+          Siti web, social, campagne pubblicitarie, Google Business
+          e automazioni AI costruiti intorno ai clienti che vuoi raggiungere.
+        </p>
+
         <div class="hero-actions">
-          <a class="btn primary" href="#contatti">Richiedi consulenza</a>
-          <a class="btn secondary" href="#servizi">Scopri i servizi</a>
+
+          <a
+            class="btn primary"
+            href="#contatti"
+          >
+            Richiedi consulenza
+          </a>
+
+          <a
+            class="btn secondary"
+            href="#servizi"
+          >
+            Scopri i servizi
+          </a>
+
         </div>
+
       </div>
+
+
       <figure class="hero-image">
-        <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80" alt="Team che pianifica una strategia digitale in ufficio">
+
+        <img
+          src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+          alt="Team che pianifica una strategia digitale in ufficio"
+        >
+
         <figcaption>
-          <span>Strategia</span>
-          <strong>Da visibilità a contatti reali</strong>
+
+          <span>
+            Strategia
+          </span>
+
+          <strong>
+            Da visibilità a contatti reali
+          </strong>
+
         </figcaption>
+
       </figure>
+
     </section>
 
-    <section class="stats" aria-label="Risultati e vantaggi">
+
+    <!-- =========================
+         STATS
+    ========================== -->
+
+    <section
+      class="stats"
+      aria-label="Risultati e vantaggi"
+    >
+
       <div>
-        <strong>+50%</strong>
-        <span>Visibilità online</span>
+
+        <strong>
+          +50%
+        </strong>
+
+        <span>
+          Visibilità online
+        </span>
+
       </div>
+
+
       <div>
-        <strong>24/7</strong>
-        <span>Automazioni clienti</span>
+
+        <strong>
+          24/7
+        </strong>
+
+        <span>
+          Automazioni clienti
+        </span>
+
       </div>
+
+
       <div>
-        <strong>1:1</strong>
-        <span>Strategia personalizzata</span>
+
+        <strong>
+          1:1
+        </strong>
+
+        <span>
+          Strategia personalizzata
+        </span>
+
       </div>
+
     </section>
 
-    <section id="servizi" class="section">
-      <div class="section-heading narrow">
-        <div>
-          <p class="eyebrow">Servizi</p>
-          <h2>Tutto ciò che serve per presentarti meglio e vendere di più.</h2>
-        </div>
-      </div>
-      <div class="service-grid">
-        <article class="card large first-card">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Dashboard marketing su un computer">
-          <div>
-            <h3>Siti web che convertono</h3>
-            <p>Pagine veloci, responsive e chiare, con contenuti orientati a richieste, prenotazioni e contatti.</p>
-          </div>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Applicazioni social su smartphone">
-          <h3>Social Media</h3>
-          <p>Piani editoriali, Reel, grafiche e gestione dei canali con una voce coerente.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80" alt="Analisi dati e campagne digitali">
-          <h3>Advertising</h3>
-          <p>Campagne Google e Meta impostate per intercettare domanda locale e misurare i risultati.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=700&q=80" alt="Interfaccia astratta di automazione AI">
-          <h3>AI Automation</h3>
-          <p>Chatbot, risposte automatiche e flussi che alleggeriscono la gestione dei clienti.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=700&q=80" alt="Sessione creativa di branding">
-          <h3>Branding</h3>
-          <p>Logo, colori, tono di voce e materiali coordinati per una presenza professionale.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=700&q=80" alt="Persone che cercano un'attivita locale online">
-          <h3>Google Business</h3>
-          <p>Scheda locale ottimizzata con foto, categorie, descrizioni e contenuti aggiornati.</p>
-        </article>
-      </div>
-    </section>
 
-    <section id="metodo" class="method section">
-      <div class="section-heading narrow">
-        <p class="eyebrow">Metodo</p>
-        <h2>Prima capiamo l'attività, poi costruiamo il percorso digitale.</h2>
-      </div>
-      <div class="steps">
-        <article>
-          <span>01</span>
-          <h3>Analisi</h3>
-          <p>Obiettivi, pubblico, concorrenza e canali attuali vengono messi in ordine.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>Strategia</h3>
-          <p>Definiamo priorità, contenuti, campagne e strumenti con un piano concreto.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Esecuzione</h3>
-          <p>Realizziamo, pubblichiamo, misuriamo e miglioriamo in base ai dati raccolti.</p>
-        </article>
-      </div>
-    </section>
+    <!-- =========================
+     SERVIZI
+========================= -->
+
+<section id="servizi" class="section">
+
+  <div class="section-heading narrow">
+
+    <p class="eyebrow">
+      Servizi
+    </p>
+
+    <h2>
+      Tutto ciò che serve per presentarti meglio e vendere di più.
+    </h2>
+
+  </div>
+
+
+  <div class="service-grid">
+
+
+    <!-- SITI WEB -->
+
+    <article class="card">
+
+      <a
+        href="servizi/siti-web.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80"
+          alt="Realizzazione siti web professionali"
+          loading="lazy"
+        >
+
+        <h3>
+          Siti Web
+        </h3>
+
+        <p>
+          Siti moderni, veloci e responsive progettati
+          per trasformare visitatori in clienti.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+    <!-- SOCIAL MEDIA -->
+
+    <article class="card">
+
+      <a
+        href="servizi/social-media.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1074&auto=format&fit=crop"
+          alt="Gestione Social Media per attività"
+          loading="lazy"
+        >
+
+        <h3>
+          Social Media
+        </h3>
+
+        <p>
+          Piani editoriali, Reel, grafiche e gestione
+          dei canali con una strategia precisa.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+    <!-- ADVERTISING -->
+
+    <article class="card">
+
+      <a
+        href="servizi/advertising.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80"
+          alt="Campagne pubblicitarie online e advertising"
+          loading="lazy"
+        >
+
+        <h3>
+          Advertising
+        </h3>
+
+        <p>
+          Campagne Google e Meta per raggiungere
+          nuovi potenziali clienti.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+    <!-- AI AUTOMATION -->
+
+    <article class="card">
+
+      <a
+        href="servizi/ai-automation.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=700&q=80"
+          alt="Automazioni AI per aziende"
+          loading="lazy"
+        >
+
+        <h3>
+          AI Automation
+        </h3>
+
+        <p>
+          Chatbot, automazioni e sistemi intelligenti
+          per ridurre il lavoro manuale.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+    <!-- BRANDING -->
+
+    <article class="card">
+
+      <a
+        href="servizi/branding.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=700&q=80"
+          alt="Branding e identità visiva aziendale"
+          loading="lazy"
+        >
+
+        <h3>
+          Branding
+        </h3>
+
+        <p>
+          Logo, colori, identità visiva e materiali
+          per rendere il brand riconoscibile.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+    <!-- GOOGLE BUSINESS -->
+
+    <article class="card">
+
+      <a
+        href="servizi/google-business.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=700&q=80"
+          alt="Ottimizzazione Google Business Profile"
+          loading="lazy"
+        >
+
+        <h3>
+          Google Business
+        </h3>
+
+        <p>
+          Ottimizziamo la tua presenza su Google
+          e Maps per aumentare la visibilità locale.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+    <!-- SEO -->
+
+    <article class="card">
+
+      <a
+        href="servizi/seo.html"
+        class="service-link"
+      >
+
+        <img
+          src="https://images.unsplash.com/photo-1571721795195-a2ca2d3370a9?auto=format&fit=crop&w=900&q=80"
+          alt="SEO e analisi del posizionamento su Google"
+          loading="lazy"
+        >
+
+        <h3>
+          SEO
+        </h3>
+
+        <p>
+          Ottimizziamo sito e contenuti per aiutarti
+          a essere trovato nelle ricerche più importanti.
+        </p>
+
+        <span class="service-more">
+          Scopri il servizio →
+        </span>
+
+      </a>
+
+    </article>
+
+
+  </div>
+
+</section>
+
+<!-- =========================
+     METODO
+========================== -->
+
+<section id="metodo" class="method section">
+
+  <div class="section-heading narrow">
+
+    <p class="eyebrow">
+      Metodo
+    </p>
+
+    <h2>
+      Prima capiamo l'attività, poi costruiamo il percorso digitale.
+    </h2>
+
+  </div>
+
+
+  <div class="steps">
+
+    <!-- ANALISI -->
+
+    <article>
+
+      <span>
+        01
+      </span>
+
+      <h3>
+        Analisi
+      </h3>
+
+      <p>
+        Analizziamo la tua attività, il pubblico che vuoi raggiungere,
+        la concorrenza e la tua presenza digitale attuale.
+      </p>
+
+    </article>
+
+
+    <!-- STRATEGIA -->
+
+    <article>
+
+      <span>
+        02
+      </span>
+
+      <h3>
+        Strategia
+      </h3>
+
+      <p>
+        Definiamo le priorità e scegliamo insieme strumenti,
+        contenuti e strategie più adatti ai tuoi obiettivi.
+      </p>
+
+    </article>
+
+
+    <!-- ESECUZIONE -->
+
+    <article>
+
+      <span>
+        03
+      </span>
+
+      <h3>
+        Esecuzione
+      </h3>
+
+      <p>
+        Realizziamo, pubblichiamo e ottimizziamo il progetto,
+        misurando i risultati e migliorando ciò che serve.
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+    <!-- =========================
+         PACCHETTI
+    ========================== -->
 
     <section id="pacchetti" class="packages section">
-      <div class="section-heading narrow">
-       <div>
-        <p class="eyebrow">Pacchetti</p>
-        <h2>Soluzioni per partire bene o accelerare ciò che hai già.</h2>
-      </div>
-    </div>
-      <div class="package-grid">
-        <article>
-          <h3>Start</h3>
-          <p>Presenza online essenziale, Google Business e contenuti base.</p>
-          <a href="#contatti">Richiedi dettagli</a>
-        </article>
-        <article class="featured">
-          <h3>Growth</h3>
-          <p>Sito, social, campagne e ottimizzazione mensile per generare richieste.</p>
-          <a href="#contatti">Richiedi dettagli</a>
-        </article>
-        <article>
-          <h3>Automation</h3>
-          <p>Flussi AI, chatbot e sistemi per gestire contatti e follow-up.</p>
-          <a href="#contatti">Richiedi dettagli</a>
-        </article>
-      </div>
-    </section>
+
+  <div class="section-heading narrow">
+    <p class="eyebrow">Pacchetti</p>
+
+    <h2>
+      Una soluzione per ogni fase della tua crescita.
+    </h2>
+
+    <p>
+      Parti dai servizi di cui hai realmente bisogno e costruisci
+      il tuo percorso digitale insieme a M.R.A. Business.
+    </p>
+  </div>
+
+  <div class="package-grid">
+
+    <!-- START -->
+    <article class="package-card">
+
+      <span class="package-label">START</span>
+
+      <h3>249 €</h3>
+
+         <div class="package-price">
+ <span>+49€/mese</span>
+</div>
+
+
+      <p class="package-description">
+        Per attività che vogliono iniziare a costruire
+        una presenza online professionale.
+      </p>
+
+      <ul>
+        <li>✓ Sito Web Base</li>
+        <li>✓ Google Business</li>
+        <li>✓ SEO Base</li>
+        <li>✓ Configurazione email</li>
+        <li>✓ Design personalizzato</li>
+      </ul>
+
+      <a href="#contatti">
+        Richiedi dettagli →
+      </a>
+
+    </article>
+
+
+    <!-- GROWTH -->
+    <article class="package-card featured-package">
+
+      <span class="package-badge">
+        PIÙ SCELTO
+      </span>
+
+      <span class="package-label">
+        GROWTH
+      </span>
+
+      <h3>399 €</h3>
+
+      <div class="package-price">
+ <span>+79€/mese</span>
+</div>
+
+      <p class="package-description">
+        Per attività che vogliono trasformare la presenza
+        online in uno strumento per ottenere nuovi contatti.
+      </p>
+
+      <ul>
+        <li>✓ Sito Web Business</li>
+        <li>✓ Google Business</li>
+        <li>✓ SEO Base</li>
+        <li>✓ Social Media</li>
+        <li>✓ Grafiche base</li>
+        <li>✓ Prenotazioni / contatti</li>
+        <li>✓ Ottimizzazione iniziale</li>
+      </ul>
+
+      <a class="btn primary" href="#contatti">
+        Scegli Growth
+      </a>
+
+    </article>
+
+
+    <!-- PRO -->
+    <article class="package-card">
+
+      <span class="package-label">
+        PRO
+      </span>
+
+      <h3>499 €</h3>
+
+         <div class="package-price">
+ <span>+99€/mese</span>
+</div>
+
+
+      <p class="package-description">
+        Una soluzione completa per chi vuole una presenza
+        digitale più avanzata e personalizzata.
+      </p>
+
+      <ul>
+        <li>✓ Sito Web Pro</li>
+        <li>✓ Google Business</li>
+        <li>✓ SEO</li>
+        <li>✓ Social Media</li>
+        <li>✓ Grafiche</li>
+        <li>✓ Advertising Setup</li>
+        <li>✓ AI Automation base</li>
+        <li>✓ Sistema prenotazioni</li>
+        <li>✓ Email</li>
+      </ul>
+
+      <a href="#contatti">
+        Richiedi dettagli →
+      </a>
+
+    </article>
+
+  </div>
+
+  <div class="package-note">
+    <strong>Hai bisogno di qualcosa di diverso?</strong>
+    <span>
+      Possiamo creare una soluzione personalizzata in base alla tua attività.
+    </span>
+  </div>
+
+</section>
+
+
+    <!-- =========================
+         PROOF
+    ========================== -->
 
     <section class="proof section">
+
       <div class="quote-box">
-        <p>Un unico partner per trasformare una piccola attività in un brand moderno, riconoscibile e facile da contattare.</p>
+
+        <p>
+          Un unico partner per trasformare una piccola attività
+          in un brand moderno, riconoscibile e facile da contattare.
+        </p>
+
       </div>
+
     </section>
 
-    <section id="contatti" class="contact section">
+
+    <!-- =========================
+         CONTATTI
+    ========================== -->
+
+    <section
+      id="contatti"
+      class="contact section"
+    >
+
       <div class="contact-copy">
-        <p class="eyebrow">Contatti</p>
-        <h2>Porta la tua attività online con una prima consulenza gratuita.</h2>
-        <p>Scrivici cosa vuoi migliorare: sito, social, pubblicità, Google Business o automazioni. Ti rispondiamo con il prossimo passo più utile.</p>
+
+        <p class="eyebrow">
+          Contatti
+        </p>
+
+        <h2>
+          Porta la tua attività online con una prima consulenza gratuita.
+        </h2>
+
+        <p>
+          Scrivici cosa vuoi migliorare: sito, social, pubblicità,
+          Google Business o automazioni. Ti rispondiamo con il prossimo
+          passo più utile.
+        </p>
+
         <div class="contact-links">
-        
         </div>
+
       </div>
-      <form id="consulenza" class="contact-form">
+
+
+      <!-- FORM -->
+
+      <form
+        id="consulenza"
+        class="contact-form"
+      >
+
         <label>
+
           Nome
-          <input name="nome" type="text" autocomplete="name" required>
+
+          <input
+            name="nome"
+            type="text"
+            autocomplete="name"
+            required
+          >
+
         </label>
+
+
         <label>
+
           Email
-          <input name="email" type="email" autocomplete="email" required>
+
+          <input
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          >
+
         </label>
+
+
         <label>
+
           Telefono
-          <input name="telefono" type="tel" autocomplete="tel">
+
+          <input
+            name="telefono"
+            type="tel"
+            autocomplete="tel"
+          >
+
         </label>
+
+
         <label>
+
           Di cosa hai bisogno?
-          <select name="servizio" required>
-            <option value="">Seleziona un servizio</option>
-            <option>Sito web</option>
-            <option>Social Media</option>
-            <option>Marketing e campagne</option>
-            <option>AI Automation</option>
-            <option>Google Business</option>
+
+          <select
+            name="servizio"
+            required
+          >
+
+            <option value="">
+              Seleziona un servizio
+            </option>
+
+            <option value="Sito web">
+              Sito web
+            </option>
+
+            <option value="Social Media">
+              Social Media
+            </option>
+
+            <option value="Marketing e campagne">
+              Marketing e campagne
+            </option>
+
+            <option value="AI Automation">
+              AI Automation
+            </option>
+
+            <option value="Google Business">
+              Google Business
+            </option>
+
+            <option value="SEO">
+              SEO
+            </option>
+
+            <option value="Pacchetto personalizzato">
+              Pacchetto personalizzato
+            </option>
+
+            <option value="Altro">
+              Altro
+            </option>
+
           </select>
+
         </label>
+
+
         <label>
-  Messaggio
-  <textarea name="messaggio" rows="5" required></textarea>
-</label>
 
-<label class="privacy-check">
-  <input type="checkbox" name="privacy" required>
-  Ho letto e accetto la <a href="privacy.html" target="_blank">Privacy Policy</a>.
-</label>
+          Messaggio
 
-<button class="btn primary" type="submit">Invia richiesta</button>
+          <textarea
+            name="messaggio"
+            rows="5"
+            required
+          ></textarea>
+
+        </label>
+
+
+        <label class="privacy-check">
+
+          <input
+            type="checkbox"
+            name="privacy"
+            value="Accettata"
+            required
+          >
+
+          <span>
+            Ho letto e accetto la
+            <a
+              href="privacy.html"
+              target="_blank"
+              rel="noopener"
+            >
+              Privacy Policy
+            </a>.
+          </span>
+
+        </label>
+
+
+        <button
+          class="btn primary"
+          type="submit"
+        >
+          Invia richiesta
+        </button>
+
       </form>
+
     </section>
+
   </main>
 
-  <a class="whatsapp" href="https://wa.me/393476920070" aria-label="Scrivici su WhatsApp">WhatsApp</a>
+
+  <!-- =========================
+       WHATSAPP
+  ========================== -->
+
+  <a
+    class="whatsapp"
+    href="https://wa.me/393476920070"
+    aria-label="Scrivici su WhatsApp"
+  >
+    WhatsApp
+  </a>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
 
  <footer>
-  <p>© 2026 M.R.A. Business</p>
-  <a href="privacy.html">Privacy Policy</a>
+
+  <div class="footer-social">
+
+    <a
+      href="https://www.facebook.com/profile.php?id=61594144978885&sfnsn=wa"
+      target="_blank"
+      rel="noopener"
+      aria-label="Facebook"
+      title="Facebook"
+    >
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a
+      href="https://www.instagram.com/m.r.a.business?igsi=MXIxZDU5empzNTNkNA=="
+      target="_blank"
+      rel="noopener"
+      aria-label="Instagram"
+      title="Instagram"
+    >
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a
+      href="https://www.tiktok.com/@m.r.a.business?_r=1&_t=ZN-99TlXOJcQC6"
+      target="_blank"
+      rel="noopener"
+      aria-label="TikTok"
+      title="TikTok"
+    >
+      <i class="fa-brands fa-tiktok"></i>
+    </a>
+
+  </div>
+
+
+  <div class="footer-info">
+
+    <p>
+      © 2026 M.R.A. Business
+    </p>
+
+    <span>
+      P. IVA: <strong>01791710534</strong>
+    </span>
+
+    <a href="privacy.html">
+      Privacy Policy
+    </a>
+
+  </div>
+
 </footer>
+
+
+  <!-- EmailJS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+
+  <!-- Il tuo JavaScript -->
+  <script type="module" src="script.js"></script>
+
+<!-- =====================================================
+     COOKIE BANNER
+===================================================== -->
+
+<div id="cookie-banner" class="cookie-banner">
+
+  <div class="cookie-inner">
+
+    <div class="cookie-main">
+
+      <div class="cookie-icon">
+        🍪
+      </div>
+
+      <div class="cookie-text">
+
+        <h3>La tua privacy conta</h3>
+
+        <p>
+          Utilizziamo cookie tecnici e, con il tuo consenso,
+          cookie analitici e di marketing per migliorare
+          la tua esperienza sul nostro sito.
+        </p>
+
+        <a
+          href="privacy.html"
+          class="cookie-policy-link"
+        >
+          Leggi la Privacy Policy
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="cookie-actions">
+
+      <button
+        id="cookie-reject"
+        class="cookie-btn cookie-reject"
+      >
+        Rifiuta
+      </button>
+
+      <button
+        id="cookie-settings"
+        class="cookie-btn cookie-settings"
+      >
+        Gestisci preferenze
+      </button>
+
+      <button
+        id="cookie-accept"
+        class="cookie-btn cookie-accept"
+      >
+        Accetta tutti
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     COOKIE PREFERENCES MODAL
+===================================================== -->
+
+<div
+  id="cookie-modal"
+  class="cookie-modal"
+>
+
+  <div class="cookie-modal-box">
+
+    <div class="cookie-modal-header">
+
+      <div>
+
+        <h2>Preferenze cookie</h2>
+
+        <p>
+          Scegli quali categorie di cookie vuoi consentire.
+          Puoi modificare le tue preferenze in qualsiasi momento.
+        </p>
+
+      </div>
+
+      <button
+        id="cookie-close"
+        class="cookie-close"
+        aria-label="Chiudi"
+      >
+        ×
+      </button>
+
+    </div>
+
+
+    <!-- COOKIE NECESSARI -->
+
+    <div class="cookie-category">
+
+      <div class="cookie-category-info">
+
+        <h4>Cookie necessari</h4>
+
+        <p>
+          Necessari per il corretto funzionamento del sito.
+          Non possono essere disattivati.
+        </p>
+
+      </div>
+
+      <label class="cookie-toggle">
+
+        <input
+          type="checkbox"
+          checked
+          disabled
+        >
+
+        <span class="cookie-slider"></span>
+
+      </label>
+
+    </div>
+
+
+    <!-- COOKIE ANALITICI -->
+
+    <div class="cookie-category">
+
+      <div class="cookie-category-info">
+
+        <h4>Cookie analitici</h4>
+
+        <p>
+          Ci aiutano a capire come viene utilizzato il sito
+          e a migliorarne le prestazioni.
+        </p>
+
+      </div>
+
+      <label class="cookie-toggle">
+
+        <input
+          type="checkbox"
+          id="cookie-analytics"
+        >
+
+        <span class="cookie-slider"></span>
+
+      </label>
+
+    </div>
+
+
+    <!-- COOKIE MARKETING -->
+
+    <div class="cookie-category">
+
+      <div class="cookie-category-info">
+
+        <h4>Cookie marketing</h4>
+
+        <p>
+          Utilizzati per eventuali attività pubblicitarie
+          e contenuti personalizzati.
+        </p>
+
+      </div>
+
+      <label class="cookie-toggle">
+
+        <input
+          type="checkbox"
+          id="cookie-marketing"
+        >
+
+        <span class="cookie-slider"></span>
+
+      </label>
+
+    </div>
+
+
+    <div class="cookie-modal-actions">
+
+      <button
+        id="cookie-save"
+        class="cookie-save"
+      >
+        Salva preferenze
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="cookie-consent.js"></script>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script>
-(function(){
-    emailjs.init("SRr23iOWBeTo4L2_t");
-})();
-
-document.getElementById("consulenza").addEventListener("submit", function(e){
-
-    e.preventDefault();
-
-    emailjs.sendForm(
-        "service_ru5uj72",
-        "template_r2nb37p",
-        this
-    )
-    .then(() => {
-        alert("Richiesta inviata correttamente!");
-        this.reset();
-    })
-    .catch((error) => {
-        alert("Errore nell'invio della richiesta");
-        console.log(error);
-    });
-
-});
-</script>
 </html>
